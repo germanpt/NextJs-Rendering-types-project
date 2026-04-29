@@ -6,13 +6,23 @@ export function getProductsFromJson(limit = 8) {
   return products.slice(0, limit);
 }
 
-function normalizeApiProduct(product) {
+function getSafeImage(product, index) {
+  const image = Array.isArray(product.images) ? product.images[0] : product.image;
+
+  if (typeof image === "string" && image.startsWith("https://i.imgur.com/")) {
+    return image;
+  }
+
+  return products[index % products.length].image;
+}
+
+function normalizeApiProduct(product, index) {
   return {
     id: product.id,
     title: product.title,
     price: product.price,
     category: product.category?.name || "Product",
-    image: Array.isArray(product.images) ? product.images[0] : product.image
+    image: getSafeImage(product, index)
   };
 }
 
