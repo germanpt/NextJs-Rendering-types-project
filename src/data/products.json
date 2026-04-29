@@ -1,58 +1,58 @@
 [
   {
-    "id": 1,
-    "title": "Majestic Mountain Graphic T-Shirt",
-    "price": 44,
-    "category": "Clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg"
+    "id": "1",
+    "title": "za3ama Ward III",
+    "price": 1111,
+    "category": "MockAPI User",
+    "image": "https://avatars.githubusercontent.com/u/9061332"
   },
   {
-    "id": 2,
-    "title": "Classic Red Pullover Hoodie",
-    "price": 10,
-    "category": "Clothes",
-    "image": "https://i.imgur.com/1twoaDy.jpeg"
+    "id": "2",
+    "title": "walawala Roberts",
+    "price": 2,
+    "category": "MockAPI User",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/33.jpg"
   },
   {
-    "id": 3,
-    "title": "Classic Heather Gray Hoodie",
-    "price": 69,
-    "category": "Clothes",
-    "image": "https://i.imgur.com/cHddUCu.jpeg"
+    "id": "3",
+    "title": "Charlene Yost",
+    "price": 3,
+    "category": "MockAPI User",
+    "image": "https://avatars.githubusercontent.com/u/88608892"
   },
   {
-    "id": 4,
-    "title": "Classic Grey Hooded Sweatshirt",
-    "price": 90,
-    "category": "Clothes",
-    "image": "https://i.imgur.com/R2PN9Wq.jpeg"
+    "id": "4",
+    "title": "Sherman Nikolaus Jr.",
+    "price": 4,
+    "category": "MockAPI User",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/93.jpg"
   },
   {
-    "id": 5,
-    "title": "Classic Black Hooded Sweatshirt",
-    "price": 79,
-    "category": "Clothes",
-    "image": "https://i.imgur.com/cSytoSD.jpeg"
+    "id": "5",
+    "title": "Miss Tracy Padberg",
+    "price": 5,
+    "category": "MockAPI User",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/35.jpg"
   },
   {
-    "id": 6,
-    "title": "Classic Comfort Fit Joggers",
-    "price": 25,
-    "category": "Clothes",
-    "image": "https://i.imgur.com/ZKGofuB.jpeg"
+    "id": "6",
+    "title": "Mr. Gordon McLaughlin DVM",
+    "price": 6,
+    "category": "MockAPI User",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/47.jpg"
   },
   {
-    "id": 7,
-    "title": "Classic Blue Baseball Cap",
-    "price": 86,
-    "category": "Clothes",
-    "image": "https://i.imgur.com/wXuQ7bm.jpeg"
+    "id": "7",
+    "title": "Randall Streich",
+    "price": 7,
+    "category": "MockAPI User",
+    "image": "https://avatars.githubusercontent.com/u/22869417"
   },
   {
-    "id": 8,
-    "title": "Classic Red Jogger Sweatpants",
-    "price": 98,
-    "category": "Clothes",
-    "image": "https://i.imgur.com/9LFjwpI.jpeg"
+    "id": "8",
+    "title": "Jared Cummerata",
+    "price": 8,
+    "category": "MockAPI User",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/29.jpg"
   }
 ]

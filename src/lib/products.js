@@ -1,41 +1,31 @@
 import products from "../data/products.json";
 
-const apiUrl = "https://api.escuelajs.co/api/v1/products";
+const apiUrl = "https://69f09964c1533dbedc9d55cb.mockapi.io/name";
 
 export function getProductsFromJson(limit = 8) {
   return products.slice(0, limit);
 }
 
-function getSafeImage(product, index) {
-  const image = Array.isArray(product.images) ? product.images[0] : product.image;
-
-  if (typeof image === "string" && image.startsWith("https://i.imgur.com/")) {
-    return image;
-  }
-
-  return products[index % products.length].image;
-}
-
 function normalizeApiProduct(product, index) {
   return {
     id: product.id,
-    title: product.title,
-    price: product.price,
-    category: product.category?.name || "Product",
-    image: getSafeImage(product, index)
+    title: product.name,
+    price: Number(product.id),
+    category: product.comments || "MockAPI User",
+    image: product.avatar || products[index % products.length].image
   };
 }
 
 export async function getProductsFromApi(limit = 8, options = {}) {
   try {
-    const response = await fetch(`${apiUrl}?offset=0&limit=${limit}`, options);
+    const response = await fetch(apiUrl, options);
 
     if (!response.ok) {
       throw new Error("Fake Store API request failed");
     }
 
     const data = await response.json();
-    return data.map(normalizeApiProduct);
+    return data.slice(0, limit).map(normalizeApiProduct);
   } catch {
     return getProductsFromJson(limit);
   }

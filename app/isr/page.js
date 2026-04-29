@@ -11,7 +11,7 @@ export default async function ISRPage() {
     <PageLayout
       label="ISR"
       title="Incremental Static Regeneration"
-      description="This server component caches products and refreshes them in the background every 30 seconds."
+      description="This server component caches MockAPI records and refreshes them in the background every 30 seconds."
       generatedAt={new Date().toLocaleString()}
     >
       <ProductGrid products={products} />

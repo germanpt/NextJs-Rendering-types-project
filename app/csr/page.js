@@ -19,7 +19,7 @@ export default function CSRPage() {
     <PageLayout
       label="CSR"
       title="Client Side Rendering"
-      description="This page uses a client component and fetches products in useEffect."
+      description="This page uses a client component and fetches MockAPI records in useEffect."
     >
       {loading ? (
         <p className="status">Loading products from the browser...</p>

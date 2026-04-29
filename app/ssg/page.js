@@ -9,7 +9,7 @@ export default async function SSGPage() {
     <PageLayout
       label="SSG"
       title="Static Site Generation"
-      description='This server component fetches products once and caches them using cache: "force-cache".'
+      description='This server component fetches MockAPI records once and caches them using cache: "force-cache".'
       generatedAt={new Date().toLocaleString()}
     >
       <ProductGrid products={products} />

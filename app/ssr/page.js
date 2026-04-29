@@ -9,7 +9,7 @@ export default async function SSRPage() {
     <PageLayout
       label="SSR"
       title="Server Side Rendering"
-      description='This server component fetches products on every request using cache: "no-store".'
+      description='This server component fetches MockAPI records on every request using cache: "no-store".'
       generatedAt={new Date().toLocaleString()}
     >
       <ProductGrid products={products} />
